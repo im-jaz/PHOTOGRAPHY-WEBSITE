@@ -1,10 +1,10 @@
 # LensStudio Photography Portfolio
 
-## 📸 Overview
+## Overview
 
 LensStudio is a responsive multi-page photography portfolio website designed to showcase photography work through a modern and visually appealing interface. The website features a clean black and red theme, immersive imagery, and an easy-to-navigate layout that highlights photography services, featured collections, and creative storytelling.
 
-## ✨ Features
+## Features
 
 - Full-screen hero section with a background image
 - Responsive navigation bar
@@ -16,12 +16,12 @@ LensStudio is a responsive multi-page photography portfolio website designed to 
 - Responsive design for desktop, tablet, and mobile devices
 - Interactive hover effects and smooth transitions
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 LensStudio/
@@ -37,11 +37,11 @@ LensStudio/
 └── images/
 ```
 
-## 🎨 Design
+## Design
 
 The website follows a modern black-and-red color palette with elegant typography to create a professional photography portfolio experience.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add JavaScript for interactive features
 - Image filtering on the gallery page
@@ -49,7 +49,7 @@ The website follows a modern black-and-red color palette with elegant typography
 - Dark/light theme toggle
 - Backend integration for the contact form
 
-## 👤 Author
+##  Author
 
 **Jazmine**
 

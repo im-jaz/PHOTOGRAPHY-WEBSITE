@@ -14,9 +14,7 @@ body{
     font-family:'Poppins',sans-serif;
 }
 
-/* ===========================
-   HERO
-=========================== */
+/* HERO */
 
 .hero{
     min-height:115vh;
@@ -31,9 +29,7 @@ body{
     grid-template-rows:auto 1fr auto;
 }
 
-/* ===========================
-   NAVIGATION
-=========================== */
+/* navigation */
 
 nav{
     display:flex;
@@ -69,9 +65,7 @@ nav ul li a:hover{
     color:#b30000;
 }
 
-/* ===========================
-   HERO CONTENT
-=========================== */
+/* hero */
 
 .hero-content{
     width:70%;
@@ -108,9 +102,7 @@ nav ul li a:hover{
     margin-bottom:35px;
 }
 
-/* ===========================
-   BUTTONS
-=========================== */
+/* buttons */
 
 .buttons{
     display:flex;
@@ -147,9 +139,7 @@ nav ul li a:hover{
     border-color:#b30000;
 }
 
-/* ===========================
-   FLOATING IMAGES
-=========================== */
+/* floating images */
 
 .image-container{
     display:flex;
@@ -182,102 +172,6 @@ nav ul li a:hover{
     width:260px;
     height:360px;
     margin-bottom:70px;
-}
-
-/* ===========================
-   RESPONSIVE
-=========================== */
-
-@media (max-width:992px){
-
-    nav{
-        flex-direction:column;
-        gap:20px;
-        padding:25px;
-    }
-
-    nav ul{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:20px;
-    }
-
-    .hero{
-        min-height:auto;
-    }
-
-    .hero-content{
-        width:90%;
-        margin:60px auto;
-    }
-
-    .hero-content h2{
-        font-size:3rem;
-    }
-
-    .hero-content p{
-        font-size:1rem;
-    }
-
-    .buttons{
-        flex-direction:column;
-        align-items:center;
-        margin-bottom:40px;
-    }
-
-    .image-container{
-        flex-wrap:wrap;
-        gap:20px;
-        padding-bottom:50px;
-    }
-
-    .image-container img{
-        width:170px;
-        height:230px;
-    }
-
-    .middle{
-        width:210px;
-        height:290px;
-        margin-bottom:20px;
-    }
-
-    .left,
-    .right{
-        margin-bottom:20px;
-    }
-}
-
-@media (max-width:600px){
-
-    .hero-content h2{
-        font-size:2.3rem;
-    }
-
-    nav{
-        padding:20px;
-    }
-
-    nav ul{
-        gap:15px;
-    }
-
-    nav ul li a{
-        font-size:.95rem;
-    }
-
-    .image-container{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .middle,
-    .left,
-    .right{
-        width:220px;
-        height:300px;
-        margin-bottom:0;
-    }
 }
 
 /* about-preview */
@@ -448,31 +342,6 @@ footer span{
     margin-top:25px;
 }
 
-/* responsive */
-
-@media (max-width:900px){
-
-.about-preview{
-    flex-direction:column;
-    text-align:center;
-}
-
-.about-image img{
-    width:100%;
-    max-width:350px;
-}
-
-.featured-gallery{
-    flex-direction:column;
-    align-items:center;
-}
-
-.card{
-    width:100%;
-    max-width:350px;
-}
-}
-
 /* about hero */
 
 .about-hero{
@@ -595,42 +464,6 @@ footer span{
     color:#fff;
 }
 
-/* responsive */
-
-@media (max-width:900px){
-
-.about-hero{
-    padding:100px 8%;
-}
-
-.about-hero h1{
-    font-size:3rem;
-}
-
-.about-main{
-    flex-direction:column;
-    text-align:center;
-}
-
-.about-info{
-    max-width:100%;
-}
-
-.skills-container{
-    flex-direction:column;
-    align-items:center;
-}
-
-.skill-card{
-    width:100%;
-    max-width:350px;
-}
-
-.quote h2{
-    font-size:2rem;
-}
-}
-
 /* gallery-hero */
 
 .gallery-hero{
@@ -705,28 +538,6 @@ footer span{
     font-family:'Playfair Display',serif;
     font-size:2.5rem;
     font-style:italic;
-}
-
-/* responsive */
-
-@media(max-width:900px){
-
-.gallery-hero{
-    padding:100px 8%;
-}
-
-.gallery-hero h1{
-    font-size:3rem;
-}
-
-.gallery-section h2{
-    font-size:2.2rem;
-}
-
-.gallery-quote h2{
-    font-size:2rem;
-}
-
 }
 
 /* services-hero */
@@ -819,25 +630,6 @@ footer span{
     max-width:650px;
     margin:0 auto 35px;
     line-height:1.8;
-}
-
-/* responsive */
-
-@media(max-width:900px){
-
-.services-hero{
-    padding:100px 8%;
-}
-
-.services-hero h1{
-    font-size:3rem;
-}
-
-.services h2,
-.booking h2{
-    font-size:2.2rem;
-}
-
 }
 
 /* blog hero */
@@ -952,21 +744,3 @@ footer span{
     padding-left:15px;
 }
 
-/* responsive */
-
-@media(max-width:900px){
-
-.blog-hero{
-    padding:100px 8%;
-}
-
-.blog-hero h1{
-    font-size:3rem;
-}
-
-.blog-posts h2,
-.tips h2{
-    font-size:2.2rem;
-}
-
-}
